@@ -1,0 +1,17 @@
+<div class="page bg-white font-sans min-h-screen">
+  <header class="bg-white shadow-md">
+    {% block header %}
+      {{page.header}}
+    {% endblock %}
+  </header>
+  <main class="text-gray-800 container mx-auto py-4 min-h-full h-full">
+    {% block content %}
+      {{page.content}}
+    {% endblock %}
+  </main>
+  <footer class="bg-gray-800 text-gray-600 px-2 py-6 text-center">
+    {% block footer %}
+      {{page.footer}}
+    {% endblock %}
+  </footer>
+</div>

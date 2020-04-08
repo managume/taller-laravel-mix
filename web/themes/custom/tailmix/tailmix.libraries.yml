@@ -1,0 +1,5 @@
+
+global-styling:
+  css:
+    base:
+      assets/css/tailmix.style.css: {}
