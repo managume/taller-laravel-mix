@@ -13,7 +13,13 @@ git clone https://github.com/managume/taller-laravel-mix.git
 cd taller-laravel-mix
 ddev start
 ddev composer install
-ddev drush then tailmix -y
+ddev import-db -f .ddev/db_backup/taller-laravel-mix.sql.gz
 ddev drush cr
 ```
 
+Puedes hacer login con los siguientes credenciales:
+
+```sh
+#user: admin
+#password: admin
+```
