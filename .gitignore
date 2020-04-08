@@ -1,0 +1,20 @@
+# Drupal
+vendor
+/drush
+/web/sites/default/files
+/web/core
+/web/files
+/web/profiles
+/web/modules
+!settings.php
+!settings.local.php
+!settings.ddev.php
+
+# Tailmix
+node_modules
+
+# Otros
+.vs_code
+.DS_Store
+/.editorconfig
+/.gitattributes
